@@ -18,8 +18,69 @@ h3 {
 
 /* Header */
 header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   text-align: center;
+  padding: 20px 0; 
 }
+
+
+/* About section styles */
+.about-content {
+  display: flex;
+  gap: 40px;
+  margin: 40px 0;
+  align-items: flex-start;
+}
+
+.about-image {
+  flex: 0 0 300px;
+}
+
+.about-text {
+  flex: 1;
+  text-align: left;
+}
+
+.about-text h3 {
+  text-align: left;
+  color: #003049;
+  margin-top: 0;
+}
+
+.background-section {
+  margin-top: 40px;
+}
+
+.background-section h3 {
+  text-align: center; 
+  color: #003049; 
+}
+
+.image-circle {
+  width: 100%;
+  max-width: 300px;
+  border: 2px solid #003049;
+  border-radius: 50%;
+}
+
+
+.portfolio-grid {
+  display: flex;
+  justify-content: space-around; 
+  flex-wrap: wrap; 
+  margin: 20px 0; 
+}
+.portfolio-grid section {
+  text-align: center; 
+  flex: 1; 
+  min-width: 100px; 
+}
+.portfolio-grid p {
+  font-size: 14px; 
+  margin: 10px 0; 
+} 
 
 /* Containers */
 div {
